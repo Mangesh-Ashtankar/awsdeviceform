@@ -12,5 +12,5 @@ artifacts:
 #     - "**/*"
 #  name: mangesh
 #  discard-paths: no
-     - "./android/app/build/outputs/**/*.apk"
-#  discard-paths: yes
+     - "./app/build/outputs/**/*.apk"
+  discard-paths: yes
