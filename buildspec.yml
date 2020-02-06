@@ -5,10 +5,7 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
-  post_build:
-     commands:
-      - find / "*.apk"
 artifacts:
   files:
-     - './awsdevicefarm'
+     - './android/app/build/outputs/**/*.apk'
   discard-paths: yes
