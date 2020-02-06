@@ -5,11 +5,12 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
+      - ls -l 
+      - pwd 
 artifacts:
   files:
-     - "**/*"
-  name: mangesh
-  discard-paths: no
-
-#     - './android/app/build/outputs/**/*.apk'
+#     - "**/*"
+#  name: mangesh
+#  discard-paths: no
+     - "./android/app/build/outputs/**/*.apk"
 #  discard-paths: yes
